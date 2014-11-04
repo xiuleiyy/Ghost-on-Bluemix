@@ -13,7 +13,7 @@ The code has been modified to run on Bluemix with local-file-store type. In the 
 
 How to run Ghost on Bluemix?
 ==================================
-1. Download the code to your local machine, eg C:/ghost
+1. Download all the files and extract to your local machine, eg C:/ghost
 2. Open config.js, thre is one line in 'production' section like below:
 url: 'http://ghostonbxen.mybluemix.net',
 Change the url value to your actual host and domain when you deploy it to Bluemix. For example, if you want to deploy this app with name "ghostblog", you need to change the url to 'http://ghostblog.mybluemix.net'
